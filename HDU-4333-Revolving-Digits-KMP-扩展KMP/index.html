@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="KMP,扩展KMP,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Song Chenlong" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="#              Revolving Digits Problem DescriptionOne day Silence is interested in revolving the digits of a positive integer. In the revolving operation, he can put several last digits to the front">
+<meta name="keywords" content="KMP,扩展KMP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HDU-4333  Revolving Digits(KMP,扩展KMP)">
+<meta property="og:url" content="https://songchenlong.github.io/HDU-4333-Revolving-Digits-KMP-扩展KMP/index.html">
+<meta property="og:site_name" content="Song Chenlong">
+<meta property="og:description" content="#              Revolving Digits Problem DescriptionOne day Silence is interested in revolving the digits of a positive integer. In the revolving operation, he can put several last digits to the front">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2018112409200665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181124094046144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181124094128483.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181124094238810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2018-11-24T02:15:15.821Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HDU-4333  Revolving Digits(KMP,扩展KMP)">
+<meta name="twitter:description" content="#              Revolving Digits Problem DescriptionOne day Silence is interested in revolving the digits of a positive integer. In the revolving operation, he can put several last digits to the front">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/2018112409200665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://songchenlong.github.io/HDU-4333-Revolving-Digits-KMP-扩展KMP/">
+
+
+
+
+
+  <title>HDU-4333  Revolving Digits(KMP,扩展KMP) | Song Chenlong</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Song Chenlong</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://songchenlong.github.io/HDU-4333-Revolving-Digits-KMP-扩展KMP/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Song Chenlong">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Song Chenlong">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">HDU-4333  Revolving Digits(KMP,扩展KMP)</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-24T10:08:34+08:00">
+                2018-11-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>﻿#              Revolving Digits</p>
+<h3 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h3><p>One day Silence is interested in revolving the digits of a positive integer. In the revolving operation, he can put several last digits to the front of the integer. Of course, he can put all the digits to the front, so he will get the integer itself. For example, he can change 123 into 312, 231 and 123. Now he wanted to know how many different integers he can get that is less than the original integer, how many different integers he can get that is equal to the original integer and how many different integers he can get that is greater than the original integer. We will ensure that the original integer is positive and it has no leading zeros, but if we get an integer with some leading zeros by revolving the digits, we will regard the new integer as it has no leading zeros. For example, if the original integer is 104, we can get 410, 41 and 104.</p>
+<h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>The first line of the input contains an integer T (1&lt;=T&lt;=50) which means the number of test cases.<br>For each test cases, there is only one line that is the original integer N. we will ensure that N is an positive integer without leading zeros and N is less than 10^100000.</p>
+<h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>For each test case, please output a line which is “Case X: L E G”, X means the number of the test case. And L means the number of integers is less than N that we can get by revolving digits. E means the number of integers is equal to N. G means the number of integers is greater than N.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h3><p>1<br>341</p>
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h3><p>Case 1: 1 1 1</p>
+<p><strong>题目链接：</strong> <a href="http://acm.hdu.edu.cn/showproblem.php?pid=4333" target="_blank" rel="noopener">http://acm.hdu.edu.cn/showproblem.php?pid=4333</a></p>
+<h3 id="题意："><a href="#题意：" class="headerlink" title="题意："></a>题意：</h3><p>给你一个T，有T组数据，每组数据给你一个n，问你把n后面的数移到前面形成的数比原来n大还是小还是相等。输出小于n，等于n，大于n的个数。例如：n = 123，首先可以把23移到1前面形成231比原来大，还可以把3移到前面形成312比原来大，还可以不移动还是123和原来相等。（形成的数中不可以存在重复，例如1111，只能产生一个1111）.</p>
+<h3 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h3><p>KMP中的next[]数组指的是模式串中最长公共前后缀。x[i-next[i]…i-1] = x[0…next[i]-1]。例如123123，next[6] = 3。例如12121212，next[8]=6.<br>如果不理解KMP算法可以看一下（<strong>强烈推荐</strong>）<a href="https://www.bilibili.com/video/av11866460" target="_blank" rel="noopener">https://www.bilibili.com/video/av11866460</a></p>
+<p>扩展KMP中的next数组表示模式串中x[i..m-1]与x[0…m-1]最长公共前缀（与KMP中的next数组不是一回事）。<br>扩展KMP中的extend[]数组表示T与S[i,n-1]的最长公共前缀。举个例子：<img src="https://img-blog.csdnimg.cn/2018112409200665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">    主串S，模式串T，extend[0] = 4, extend[1] = 3, extend[2] = 2,extend[3]=1, extend[4] = 0, extend[5] = 2。</p>
+<p>说了这么多，跟这个题有毛关系呢。。。<br>这个题利用的是extend数组，首先把串复制到后面一次，例如123，即123123。这样是为了求每一位的后缀与自身的最长公共前缀。还是举个例子。<br>例如341，这时让主串为复制后的341341，模式串为341。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181124094046144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>extend[1] 就是让413和341进行匹配，此时extend[1]=0,如果这时不是全匹配，那么就肯定不是相等的，只需判定s[i+extend[i]]与t[extend[i]]谁大谁小即可。<br><img src="https://img-blog.csdnimg.cn/20181124094128483.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>extend[2] = 0,判断s[2]与t[0]谁大谁小。<br><img src="https://img-blog.csdnimg.cn/20181124094238810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NjbG9uZzAyMTg=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这时extend[3]=3,此时extend[3] = m,那么他是全匹配的，所以是相等的。<br>就是利用extend数组这样的特性来求出的。不过还要注意有循环节的情况。例如12121212和1111。<br>12121212<br>21212121<br><del>12121212<br>21212121</del><br>剩下的全部都是重复的了，还需要用KMP中的next数组来求出他的循环节。例如12121212，next[n]=6。如果n%(n-next[n])==0，说明这时候里面是有循环节，是有重复的。重复的次数为n/(n-next[n])次，所以最后个数除以n/(n-next[n])就可以。。。。。</p>
+<h3 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">kmp_pre</span><span class="params">(<span class="built_in">string</span> s, <span class="keyword">int</span> m, <span class="keyword">int</span> NEXT[])</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i, j;</span><br><span class="line">	j = NEXT[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">	i = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(i &lt; m) &#123;</span><br><span class="line">		<span class="keyword">while</span>(<span class="number">-1</span> != j &amp;&amp; s[i] != s[j]) </span><br><span class="line">			j = NEXT[j];</span><br><span class="line">		NEXT[++i] = ++j;	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">pre_EKMP</span><span class="params">(<span class="built_in">string</span> t, <span class="keyword">int</span> m, <span class="keyword">int</span> Next[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Next[<span class="number">0</span>] = m;</span><br><span class="line">	<span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>( j + <span class="number">1</span> &lt; m &amp;&amp; t[j] == t[j+<span class="number">1</span>]) j++;</span><br><span class="line">	Next[<span class="number">1</span>] = j;</span><br><span class="line">	<span class="keyword">int</span> k = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">2</span>; i &lt; m; i++) &#123;</span><br><span class="line">		<span class="keyword">int</span> p = Next[k] + k<span class="number">-1</span>;</span><br><span class="line">		<span class="keyword">int</span> L = Next[i-k];</span><br><span class="line">		<span class="keyword">if</span>(i + L &lt; p+<span class="number">1</span>) Next[i] = L;</span><br><span class="line">		<span class="keyword">else</span> &#123;</span><br><span class="line">			j = max(<span class="number">0</span>, p-i+<span class="number">1</span>);</span><br><span class="line">			<span class="keyword">while</span>(i+j&lt;m &amp;&amp; t[i+j] == t[j]) j++;</span><br><span class="line">			Next[i] = j;</span><br><span class="line">			k = i;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">		</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">EKMP</span><span class="params">(<span class="built_in">string</span> t, <span class="keyword">int</span> m, <span class="built_in">string</span> s, <span class="keyword">int</span> n, <span class="keyword">int</span> Next[], <span class="keyword">int</span> extend[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	pre_EKMP(t, m ,Next);</span><br><span class="line">	<span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(j &lt; n &amp;&amp; j &lt; m &amp;&amp; t[j] == s[j]) j++;</span><br><span class="line">	extend[<span class="number">0</span>] = j;</span><br><span class="line">	<span class="keyword">int</span> k = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> p = extend[k] + k<span class="number">-1</span>;</span><br><span class="line">		<span class="keyword">int</span> L = Next[i-k];</span><br><span class="line">		<span class="keyword">if</span>(i+L &lt; p+<span class="number">1</span>) extend[i] = L;</span><br><span class="line">		<span class="keyword">else</span> &#123;</span><br><span class="line">			j = max(<span class="number">0</span>, p-i+<span class="number">1</span>);</span><br><span class="line">			<span class="keyword">while</span>(i+j&lt;n &amp;&amp; j &lt; m &amp;&amp; s[i+j] == t[j]) j++;</span><br><span class="line">			extend[i] = j;</span><br><span class="line">			k = i;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> p;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; p;</span><br><span class="line">	<span class="keyword">int</span> Case = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(p--) &#123;</span><br><span class="line">		<span class="built_in">string</span> s, t;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; t;</span><br><span class="line">		s = t;</span><br><span class="line">		s += t;</span><br><span class="line">		<span class="keyword">int</span> m = t.length();</span><br><span class="line">		<span class="keyword">int</span> n = s.length();</span><br><span class="line">		<span class="keyword">int</span> extend[<span class="number">100005</span>];</span><br><span class="line">		<span class="keyword">int</span> Next[<span class="number">100005</span>];</span><br><span class="line">		<span class="keyword">int</span> NEXT[<span class="number">100005</span>];</span><br><span class="line">		<span class="built_in">memset</span>(extend, <span class="number">0</span>, <span class="keyword">sizeof</span>(extend));</span><br><span class="line">		<span class="built_in">memset</span>(Next, <span class="number">0</span>, <span class="keyword">sizeof</span>(Next));</span><br><span class="line">		<span class="built_in">memset</span>(NEXT, <span class="number">0</span>, <span class="keyword">sizeof</span>(NEXT));</span><br><span class="line">		kmp_pre(s, m, NEXT);</span><br><span class="line">		EKMP( t, m,  s, n, Next, extend);</span><br><span class="line">		<span class="keyword">int</span> L, E, G;</span><br><span class="line">		L= E =G=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n-m; i++) &#123;</span><br><span class="line">			<span class="keyword">if</span>(extend[i] == m) &#123;</span><br><span class="line">				E++;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span> &#123;</span><br><span class="line">				<span class="keyword">if</span>(s[i+extend[i]] &gt; t[extend[i]])</span><br><span class="line">					G++;</span><br><span class="line">				<span class="keyword">else</span> </span><br><span class="line">					L++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(!(m%(m-NEXT[m]))) &#123;</span><br><span class="line">			<span class="keyword">int</span> k = m / (m-NEXT[m]);</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"Case %d: %d %d %d\n"</span>, ++Case,L/k, E/k, G/k);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"Case %d: %d %d %d\n"</span>, ++Case,L, E, G);</span><br><span class="line">		&#125;</span><br><span class="line">	</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #555;font-size:14px;">-------------The End-------------</div>
+    
+</div>
+
+  
+</div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/KMP/" rel="tag"><i class="fa fa-tag"></i> KMP</a>
+          
+            <a href="/tags/扩展KMP/" rel="tag"><i class="fa fa-tag"></i> 扩展KMP</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/HDU-1166-敌兵布阵（树状数组）/" rel="next" title="HDU-1166 敌兵布阵（树状数组）">
+                <i class="fa fa-chevron-left"></i> HDU-1166 敌兵布阵（树状数组）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/header.jpg" alt="Song Chenlong">
+            
+              <p class="site-author-name" itemprop="name">Song Chenlong</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/songchenlong" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://blog.csdn.net/Sclong0218" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-globe"></i>CSDN</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Problem-Description"><span class="nav-number">1.</span> <span class="nav-text">Problem Description</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Input"><span class="nav-number">2.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output"><span class="nav-number">3.</span> <span class="nav-text">Output</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input"><span class="nav-number">4.</span> <span class="nav-text">Sample Input</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output"><span class="nav-number">5.</span> <span class="nav-text">Sample Output</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#题意："><span class="nav-number">6.</span> <span class="nav-text">题意：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#思路："><span class="nav-number">7.</span> <span class="nav-text">思路：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码："><span class="nav-number">8.</span> <span class="nav-text">代码：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Song Chenlong</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+undefined
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":"hijiki","position":"left","bottom":-30,"mobileShow":false,"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
