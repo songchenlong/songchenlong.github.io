@@ -8,13 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        SIGMA@OUC
+        <div style="font-size: 32px; font-weight: bold;">中国海洋大学   </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA</div>
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        本实验室是**中国海洋大学**。。。。。。。
+        **中国海洋大学**。。。。。。。
   
   - block: collection
     content:
