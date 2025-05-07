@@ -4,20 +4,23 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: 近期动态
+    url: post
+    weight: 10  
   - name: 团队成员
     url: people
-    weight: 10
+    weight: 20
   - name: 科研论文
     url: papers
-    weight: 20
+    weight: 30
   - name: 科研项目
     url: projects
-    weight: 30    
+    weight: 40    
   - name: 团队活动
     url: activities  
-    weight: 40
+    weight: 50
   - name: 联系我们
     url: contact
-    weight: 50
+    weight: 60
 
 

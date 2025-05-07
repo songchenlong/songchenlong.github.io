@@ -8,20 +8,19 @@ sections:
   - block: hero
     content:
       title: |
-        <div style="font-size: 32px; font-weight: bold;">中国海洋大学   </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA</div>
+        <div style="font-size: 32px; font-weight: bold;">XXXXX实验室   </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA@OUC</div>
       image:
         filename: welcome.jpg
       text: |
         <br>
-        
-        **中国海洋大学**。。。。。。。
+        XXXX实验室简介。。。。。
   
   - block: collection
     content:
-      title: Latest News
+      title: 近期动态
       subtitle:
       text:
-      count: 5
+      count: 2
       filters:
         author: ''
         category: ''
@@ -32,7 +31,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: card
+      view: list
       columns: '1'
   
   # - block: markdown
