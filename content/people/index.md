@@ -11,12 +11,6 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
           - 指导教师
           - 博士后
           - 在读博士生
@@ -28,3 +22,13 @@ sections:
       show_role: true
       show_social: true
 ---
+
+
+## Graduate Student
+
+| 年级 | 姓名   | 毕业去向           |
+|------|--------|------------------|
+| 2022级硕士生 | XXX  | XXX公司              |
+| 2022级博士生 | XXX  |     XXX公司          |
+
+
