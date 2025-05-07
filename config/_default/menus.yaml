@@ -16,9 +16,11 @@ main:
   - name: Events
     url: event
     weight: 40
-  - name: Publications
-    url: publication
+  - name: 科研论文
+    url: papers
     weight: 50
   - name: Contact
     url: contact
     weight: 60
+
+
