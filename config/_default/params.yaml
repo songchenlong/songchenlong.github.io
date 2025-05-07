@@ -9,9 +9,9 @@ appearance:
   theme_day: minimal
   theme_night:
   font: native
-  font_size: L
+  font_size: S
   mode: light
-  color: red
+  # color: red
 
 # SEO
 
