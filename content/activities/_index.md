@@ -8,7 +8,7 @@ sections:
     content:
       title: 团队活动
       subtitle: ''
-      text: 'DEMI开展的一些精彩活动和毕业瞬间！'
+      text: 'SIGMA开展的一些精彩活动！'
       # Choose how many pages you would like to display (0 = all pages)
       count: 100
       # Filter on criteria
