@@ -56,6 +56,4 @@ projects:
 ---
 毕业生合影
 <br>
-![图片1](https://www.helloimg.com/i/2024/11/18/673af8a3e3683.jpg)
-![图片2](https://www.helloimg.com/i/2024/11/18/673af8a3e2a1d.jpg)
-![图片3](https://www.helloimg.com/i/2024/11/18/673af8a3d6a58.jpg)
+![图片1](/workspaces/songchenlong.github.io/assets/media/welcome.jpg)
