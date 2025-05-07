@@ -21,14 +21,17 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+  
+  - block: graduates
+    content:
+      title: 毕业生
+      body: |
+        ### Graduate Student
+        | 年级 | 姓名   | 毕业去向           |
+        |------|--------|------------------|
+        | 2022级硕士生 | XXX  | XXX公司           |
+        | 2022级博士生 | XXX  |  XXX公司          |
 ---
 
-
-## Graduate Student
-
-| 年级 | 姓名   | 毕业去向           |
-|------|--------|------------------|
-| 2022级硕士生 | XXX  | XXX公司              |
-| 2022级博士生 | XXX  |     XXX公司          |
 
 
