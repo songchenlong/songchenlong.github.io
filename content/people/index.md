@@ -22,7 +22,7 @@ sections:
       show_role: true
       show_social: true
   
-  - block: graduates
+  - block: markdown
     content:
       title: 毕业生
       body: |
