@@ -25,9 +25,9 @@ sections:
   - block: markdown
     content:
       title: 毕业生
-      body: |
+      text: |
         ### Graduate Student
-        
+
         | 年级 | 姓名   | 毕业去向           |
         |------|--------|------------------|
         | 2022级硕士生 | XXX  | XXX公司           |
