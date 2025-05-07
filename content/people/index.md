@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Team
+      title: 团队成员
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
@@ -17,6 +17,10 @@ sections:
           - Administration
           - Visitors
           - Alumni
+          - 实验室
+          - 博士后
+          - 在读博士生
+          - 在读硕士生
       sort_by: Params.last_name
       sort_ascending: true
     design:
