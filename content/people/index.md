@@ -17,7 +17,7 @@ sections:
           - Administration
           - Visitors
           - Alumni
-          - 实验室
+          - 指导教师
           - 博士后
           - 在读博士生
           - 在读硕士生
