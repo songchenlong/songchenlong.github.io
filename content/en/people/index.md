@@ -12,10 +12,10 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - 指导教师
-          - 博士后
-          - 在读博士生
-          - 在读硕士生
-      sort_by: Params.last_name
+          - Postdoctor
+          - Doctoral Students
+          - Master Students
+      sort_by: Params.index
       sort_ascending: true
     design:
       show_interests: false
