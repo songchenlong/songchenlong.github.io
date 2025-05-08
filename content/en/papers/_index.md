@@ -40,7 +40,7 @@ banner:
    Xiang Li#, Jianpeng Qi, Zhongying Zhao, Guanjie Zheng, Lei Cao, Junyu Dong, Yanwei Yu*  
    *Proceedings of 41th IEEE International Conference on Data Engineering*  
    (**CCF A**, acceptance rate=\*\*\/\*\*\*\*\=\*\*%)  
-   [📄 PDF](#) | [💻 Code](#) | [📑 Link](#)
+   [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[TKDE 2025]** "Dual-Channel Multiplex Graph Neural Networks for Recommendation"  
    Xiang Li#, Chaofan Fu#, Zhongying Zhao, Guanjie Zheng, Chao Huang, Yanwei Yu*, Junyu Dong  
