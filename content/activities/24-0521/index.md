@@ -56,4 +56,4 @@ projects:
 ---
 毕业生合影
 <br>
-![图片1](/workspaces/songchenlong.github.io/assets/media/welcome.jpg)
+![图片1](/assets/media/welcome.jpg)
