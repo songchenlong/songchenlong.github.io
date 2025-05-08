@@ -23,7 +23,7 @@ banner:
 
 ## 📚 2024
 
-1. **[IJCAI 2025]** "DGraFormer: Dynamic Graph Learning Guided Multi-Scale Transformer for Multivariate Time Series Forecasting"   $\color{red} {New!}$   
+1. **[IJCAI 2025]** "DGraFormer: Dynamic Graph Learning Guided Multi-Scale Transformer for Multivariate Time Series Forecasting"
    Han Yan#, Dongliang Chen, Guiyuan Jiang, Bin Wang, Lei Cao, Junyu Dong, **Yanwei Yu**   
    *Proceeddings of the 34th International Joint Conference on Artificial Intelligence*   
    (**CCF A**, 接收率=1042/5404=19.3%)    
