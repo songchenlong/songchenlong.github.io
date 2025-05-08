@@ -167,30 +167,67 @@ banner:
 1. **[KBS 2023]** "Structural regularization based discriminative multi-view unsupervised feature selection"  
    Shixuan Zhou, Peng Song, Yanwei Yu, Wenming Zheng  
    *Knowledge-Based Systems*, (JCR Q1, **CCF C**)  
-   [📄 PDF](./papers/1-s2.0-S0950705123003519-main.pdf) | [💻 Code](#) | [📑 Cite](#)
+   [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[ESWA 2023]** "Session-based recommendation with hypergraph convolutional networks and sequential information embeddings"  
    Chengxin Ding, Zhongying Zhao, Chao Li, Yanwei Yu, Qingtian Zeng  
    *Expert Systems with Applications 223*, (JCR Q1, **CCF C**)  
-   [📄 PDF](./papers/1-s2.0-S0957417423003767-main.pdf) | [💻 Code](#) | [📑 Cite](#)
+   [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[ESWA 2023]** "OSGNN: Original graph and Subgraph aggregated Graph Neural Network"  
    Yeyu Yan, Chao Li, Yanwei Yu, Xiangju Li, Zhongying Zhao  
    *Expert Systems with Applications 225*, (JCR Q1, **CCF C**)  
-   [📄 PDF](./papers/1-s2.0-S0957417423006176-main.pdf) | [💻 Code](#) | [📑 Cite](#)
+   [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[AAAI 2023]** "Graph Structure Learning on User Mobility Data for Social Relationship Inference"  
    Guangming Qin#, Lexue Song#, Yanwei Yu*, Chao Huang, Wenzhe Jia, Yuan Cao, Junyu Dong  
    *Proceedings of Thirty-Seventh AAAI Conference on Artificial Intelligence*  
    (**CCF A**, acceptance rate=1721/8777=19.6%)  
-   [📄 PDF](./papers/25580-Article Text-29643-1-2-20230626.pdf) | [💻 Code](#) | [📑 Cite](#)
+   [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[WWWJ 2023]** "PreCLN: Pretrained-based contrastive learning network for vehicle trajectory prediction"  
    Bingqi Yan#, Geng Zhao, Lexue Song#, Yanwei Yu*, Junyu Dong  
    *World Wide Web Journal*, (**CCF B**)  
-   [📄 PDF](/papers/bingqi2022pretrainedWWWJ.pdf) | [💻 Code](#) | [📑 Cite](#)
+   [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[TKDD 2023]** "Dynamic Multi-View Graph Neural Networks for Citywide Traffic Inference"  
    Shaojie Dai#, Jinshuai Wang#, Chao Huang, Yanwei Yu*, Junyu Dong  
    *ACM Transactions on Knowledge Discovery from Data*, (**CCF B**)  
-   [📄 PDF](/papers/shaojie2022dynamicTKDD.pdf) | [💻 Code](https://github.com/dsj96/TKDD) | [📑 Cite](#)
+   [📄 PDF](#) | [💻 Code](https://github.com/dsj96/TKDD) | [📑 Cite](#)
+
+
+## 📚 2022
+
+1. **[KBS 2022]** "Heterogeneous Graph Neural Network for Attribute Completion"  
+   Kai Wang#, Yanwei Yu*, Chao Huang, Zhongying Zhao, Junyu Dong  
+   *Knowledge-Based Systems*, (JCR Q1, **CCF C**)  
+   [📄 PDF](#) | [💻 Code](https://github.com/Code-husky/AC-HEN) | [📑 Cite](#)
+
+1. **[KDD 2022]** "Multiplex Heterogeneous Graph Convolutional Network"  
+   Pengyang Yu#, Chaofan Fu#, Yanwei Yu*, Chao Huang, Zhongying Zhao, Junyu Dong  
+   *Proceedings of 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*  
+   (**CCF A**, acceptance rate=254/1695=15%)  
+   [📄 PDF](#) | [💻 Code](https://github.com/NSSSJSS/MHGCN) | [📑 Cite](#)
+
+1. **[KDD 2022]** "Multi-Behavior Hypergraph-Enhanced Transformer for Next-Item Recommendation"  
+   Yuhao Yang, Chao Huang, Lianghao Xia, Yuxuan Liang, Yanwei Yu, Chenliang Li  
+   *Proceedings of 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*  
+   (**CCF A**, acceptance rate=254/1695=15%)  
+   [📄 PDF](#) | [💻 Code](https://github.com/Onedean/MainTUL) | [📑 Cite](#)
+
+1. **[IJCAI 2022]** "Mutual Distillation Learning Network for Trajectory-User Linking"  
+   Wei Chen#, Shuzhe Li#, Chao Huang, Yanwei Yu*, Yongguo Jiang, Junyu Dong  
+   *Proceedings of the 31st International Joint Conference on Artificial Intelligence*  
+   (**CCF A**, acceptance rate=681/4535=15%)  
+   [📄 PDF](#) | [💻 Code](https://github.com/Onedean/MainTUL) | [📑 Cite](#)
+
+1. **[ICDE 2022]** "Scalable Motif Counting for Large-scale Temporal Graphs"  
+   Zhongqiang Gao#, Chuanqi Cheng#, Yanwei Yu*, Lei Cao, Chao Huang, Junyu Dong  
+   *Proceedings of 38th IEEE International Conference on Data Engineering*  
+   (**CCF A**, acceptance rate=211/780=27.1%)  
+   [📄 PDF](#) | [💻 Code](https://github.com/steven-ccq/FAST-temporal-motif) | [📑 Cite](#)
+
+1. **[DSE 2022]** "Spatio-Temporal Representation Learning with Social Tie for Personalized POI Recommendation"  
+   Shaojie Dai#, Yanwei Yu*, Hao Fan, and Junyu Dong  
+   *Data Science and Engineering*, (**CCF C**)  
+   [📄 PDF](#) | [💻 Code](https://www.anonymous.4open.science/r/DSE-1BEC) | [📑 Cite](#)
