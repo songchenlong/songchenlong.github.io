@@ -11,14 +11,14 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - 指导教师
+          - Teachers
           - Postdoctor
           - Doctoral Students
           - Master Students
       sort_by: Params.index
       sort_ascending: true
     design:
-      show_interests: false
+      show_interests: ture
       show_role: true
       show_social: true
   
