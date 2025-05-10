@@ -5,25 +5,25 @@ date: 2022-10-24
 type: landing
 
 sections:
-  # - block: hero
-  #   content:
-  #     title: |
-  #       <div style="font-size: 32px; font-weight: bold;">Special Interest Group on Mining and learning from datA  </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA@OUC</div>
-  #     image:
-  #       filename: welcome.jpg
-  #     text: |
-  #       <br>
-  #       XXXX。。。。。
-  - block: slider
+  - block: hero
     content:
-      slides:
-        - title: Slide One
-          image:
-            filename: welcome.jpg
+      title: |
+        <div style="font-size: 32px; font-weight: bold;">Special Interest Group on Mining and learning from datA  </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA@OUC</div>
+      image:
+        filename: welcome.jpg
+      text: |
+        <br>
+        XXXX。。。。。
+  # - block: slider
+  #   content:
+  #     slides:
+  #       - title: Slide One
+  #         image:
+  #           filename: welcome.jpg
 
-        - title: Slide two
-          image:
-            filename: coders.jpg        
+  #       - title: Slide two
+  #         image:
+  #           filename: coders.jpg        
   
   - block: collection
     content:
