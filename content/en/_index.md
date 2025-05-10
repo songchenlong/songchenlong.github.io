@@ -20,6 +20,10 @@ sections:
         - title: Slide One
           image:
             filename: welcome.jpg
+
+        - title: Slide two
+          image:
+            filename: coders.jpg        
   
   - block: collection
     content:
