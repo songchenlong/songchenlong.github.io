@@ -1,22 +1,22 @@
 ---
 # Display name
-title: Dongliang Chen
+title: Hong Xia
 
 # Full name (for SEO)
-first_name: Dongliang
-last_name: Chen
+first_name: Hong
+last_name: Xia
 
 # Username (this should match the folder name)
 authors:
-  - Dongliang Chen
+  - Hong Xia
 
 # Is this the primary user of the site?
 superuser: false
 
-index: "Postdoctor02"
+index: "Master2306"
 
 # Role/position
-role: Postdoctor
+role: 2023 Master's students
 
 # Organizations/Affiliations
 organizations:
@@ -27,9 +27,8 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Affective Computing
-  - Image and Video Processing
-  - Transfer Learning
+  - Trajectory Representation Learning
+  # - Computational Linguistics
   # - Information Retrieval
 
 # education:
@@ -68,10 +67,10 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+# email: 'songchenlong0218@outlook.com'
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoctor
+  - Master Students
 ---
