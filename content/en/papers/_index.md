@@ -1,5 +1,5 @@
 ---
-title: 著作论文
+title: Publications
 view: citation
 banner:
   caption: ''
@@ -11,19 +11,19 @@ banner:
 1. **[IJCAI 2025]** "DGraFormer: Dynamic Graph Learning Guided Multi-Scale Transformer for Multivariate Time Series Forecasting"     
    Han Yan#, Dongliang Chen, Guiyuan Jiang, Bin Wang, Lei Cao, Junyu Dong, Yanwei Yu*   
    *Proceeddings of the 34th International Joint Conference on Artificial Intelligence*      
-   (**CCF A**, 接收率=1042/5404=19.3%)       
+   (**CCF A**, acceptance rate=1042/5404=19.3%)       
    [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[IJCAI 2025]** "MaskDGNN: Self-Supervised Dynamic Graph Neural Networks with Activeness-aware Temporal Masking"       
    Yiming He#, Xiang Li#, Zhongying Zhao, Haobing Liu, Peilan He, Yanwei Yu*        
    *Proceeddings of the 34th International Joint Conference on Artificial Intelligence*     
-   (**CCF A**, 接收率=1042/5404=19.3%)        
+   (**CCF A**, acceptance rate=1042/5404=19.3%)        
    [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[IJCAI 2025]** "Non-collective Calibrating Strategy for Time Series Forecasting"       
    Yongqi Han, Feng Hong, Minbo Ma, Yanwei Yu*, Junbo Zhang, Tianrui Li, Bin Wang*       
    *Proceeddings of the 34th International Joint Conference on Artificial Intelligence*     
-   (**CCF A**, 接收率=1042/5404=19.3%)        
+   (**CCF A**, acceptance rate=1042/5404=19.3%)        
    [📄 PDF](#) | [💻 Code](#) | [📑 Cite](#)
 
 1. **[VLDBJ 2025]** "Efficiently Counting Four-Node Motifs in Large-Scale Temporal Graphs"       

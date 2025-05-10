@@ -1,5 +1,5 @@
 ---
-title: 科研项目
+title: Projects
 
 # Listing view
 view: compact
