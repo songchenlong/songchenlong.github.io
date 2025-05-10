@@ -1,19 +1,19 @@
 ---
 # Display name
-title: Chenlong Song
+title: Kunyu Ni
 
 # Full name (for SEO)
-first_name: Chenlong
-last_name: Song
+first_name: Kunyu
+last_name: Ni
 
 # Username (this should match the folder name)
 authors:
-  - Chenlong Song
+  - Kunyu Ni
 
 # Is this the primary user of the site?
 superuser: false
 
-index: "Phd2502"
+index: "Phd2501"
 
 # Role/position
 role: Doctoral students in 2025
@@ -27,7 +27,7 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  # - Recommendation System
+  - AI For Data Prepare
   # - Computational Linguistics
   # - Information Retrieval
 
@@ -48,18 +48,18 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'mailto:test@example.org'
   # - icon: cv
   #   icon_pack: ai
   #   link: https://yuyanwei.github.io/index.html
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/songchenlong
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/songchenlong
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -67,7 +67,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'songchenlong0218@outlook.com'
+email: ''
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
