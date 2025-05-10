@@ -19,7 +19,7 @@ sections:
       slides:
         - title: Slide One
           image:
-            filename: welcome1.jpg
+            filename: welcome.jpg
   
   - block: collection
     content:
