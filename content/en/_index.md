@@ -16,26 +16,10 @@ sections:
   #       XXXX。。。。。
   - block: slider
     content:
-      items:
-        - title: 欢迎来到SIGMA实验室
-          subtitle: 我们致力于挖掘数据的价值
+      slides:
+        - title: Slide One
           image:
-            filename: welcome.jpg
-          content: |
-            探索我们的研究领域，加入我们！
-          cta:
-            label: 了解更多 →
-            url: ./research/
-
-        - title: 招募优秀学生
-          subtitle: 本科生 / 研究生 / 博士后
-          image:
-            filename: icon.png
-          content: |
-            如果你对数据挖掘、图学习感兴趣，欢迎联系我们！
-          cta:
-            label: 加入我们 →
-            # url: ./join/
+            filename: welcome1.jpg
   
   - block: collection
     content:
