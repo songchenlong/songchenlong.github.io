@@ -15,7 +15,7 @@ sections:
           image:
             filename: coders.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.9
           position: right
           color: '#666'
       - title: 👋 Welcome to the group
@@ -138,5 +138,5 @@ sections:
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
-      columns: '2' # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
 ---
