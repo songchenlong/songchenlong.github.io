@@ -124,12 +124,12 @@ sections:
   #   design:
   #     view: citation
   #     columns: '1'
-  - block: markdown
-    id: papers
-    content:
-      title: Section 1
-      subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+#   - block: markdown
+#     id: papers
+#     content:
+#       title: Section 1
+#       subtitle: A subtitle
+#       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
 
   - block: markdown
     content:
