@@ -10,6 +10,8 @@ baseURL: 'https://songchenlong.github.io/' # Website URL
 ############################
 ## LANGUAGE
 ############################
+altLogo = "/logo.jpg"
+teamLogo = "/logo.jpg"
 
 defaultContentLanguage: en
 hasCJKLanguage: true
