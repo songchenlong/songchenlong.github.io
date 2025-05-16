@@ -5,7 +5,7 @@
 
 title: SIGMA@OUC # Website name
 baseURL: 'https://songchenlong.github.io/' # Website URL
-
+logo = "images/avatar.jpg"
 ############################
 ## LANGUAGE
 ############################
