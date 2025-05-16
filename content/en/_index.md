@@ -125,7 +125,7 @@ sections:
   #     view: citation
   #     columns: '1'
   - block: markdown
-    id: section-1
+    id: papers
     content:
       title: Section 1
       subtitle: A subtitle
