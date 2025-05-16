@@ -21,10 +21,12 @@ sections:
       show_interests: ture
       show_role: true
       show_social: true
+      spacing: 
+        padding: ["20px", "0", "20px", "0"]
   
   - block: markdown
     content:
-      title: 毕业生
+      title: Alumni
       text: |
         | 年级         | 姓名 | 研究方向 | 毕业去向   |
         |--------------|------|----------|------------|
