@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: Ocean
+  theme_day: Ocean # Ocean、Minimal、
   theme_night:
   font: native
-  font_size: M
+  font_size: M # xs, s, m, l, xl.
   mode: light
   # color: red
 
