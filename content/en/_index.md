@@ -5,15 +5,63 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: slider
     content:
-      title: |
-        <div style="font-size: 32px; font-weight: bold;">Special Interest Group on Mining and learning from datA  </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA@OUC</div>
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        XXXX。。。。。
+      slides:
+      - title: 👋 Welcome to the group
+        content: Take a look at what we're working on...
+        align: center
+        background:
+          image:
+            filename: coders.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+      - title: 👋 Welcome to the group
+        content: Take a look at what we're working on...
+        align: center
+        background:
+          image:
+            filename: contact.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: 👋 Welcome to the group
+        content: Take a look at what we're working on...
+        align: center
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        # link:
+        #   icon: graduation-cap
+        #   icon_pack: fas
+        #   text: Join Us
+        #   url: ../contact/
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: false
+      # Duration of transition between slides (in ms)
+      interval: 2000
+
+
+#   - block: hero
+#     content:
+#       title: |
+#         <div style="font-size: 32px; font-weight: bold;">Special Interest Group on Mining and learning from datA  </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA@OUC</div>
+#       image:
+#         filename: welcome.jpg
+#       text: |
+#         <br>
+#         XXXX。。。。。
   # - block: slider
   #   content:
   #     slides:
