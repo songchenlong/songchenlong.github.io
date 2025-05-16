@@ -21,8 +21,8 @@ sections:
       show_interests: ture
       show_role: true
       show_social: true
-      spacing: 
-        padding: ["100px", "0", "100px", "0"]
+      # spacing: 
+      #   padding: ["100px", "0", "100px", "0"]
   
   - block: markdown
     content:
