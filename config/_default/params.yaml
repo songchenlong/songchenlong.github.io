@@ -38,6 +38,12 @@ header:
     enable: true
     align: r
     show_logo: true
+    logo:  # ← 新增logo配置
+      image: "images/logo.png"  # 路径相对于static/目录
+      # image_dark: "images/logo-dark.png"  # 可选暗色模式logo
+      width: 30px  # 建议宽度
+      height: auto  # 保持比例
+      alt: "SIGMA@OUC"  # 替代文本
     show_language: true
     show_day_night: true
     show_search: true
