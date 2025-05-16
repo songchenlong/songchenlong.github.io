@@ -138,5 +138,5 @@ sections:
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
-      columns: '1'
+      columns: '2' # Choose how many columns the section has. Valid values: '1' or '2'.
 ---
