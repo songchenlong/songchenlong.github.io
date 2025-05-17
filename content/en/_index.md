@@ -139,4 +139,13 @@ sections:
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
       columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.
+      
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+    design:
+      columns: '1' # Choose how many columns the section has. Valid values: '1' or '2'.  
 ---
