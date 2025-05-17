@@ -74,13 +74,17 @@ user_groups:
   - Supervisors
 ---
 ### Resume
+<div style="font-size: 0.9em;"> <!-- 全局调小至原字体的90% -->
 Yanwei Yu is a professor in the [College of Computer Science and Technology](https://it.ouc.edu.cn/) of [Ocean University of China](https://www.ouc.edu.cn/). He received the B.S. degree from Liaocheng University, China, in 2008 and the Ph.D. degree from University of Science and Technology Beijing, China, in 2014, respectively. From 2012 to 2013, he was a visiting Ph.D. student at the Department of Computer Science of Worcester Polytechnic Institute. From 2016 to 2018, he was a postdoc researcher at the College of Information Sciences and Technology of Pennsylvania State University. His research interests include data mining, machine learning, distributed computing, and database systems. He published more than 60 papers in TODS, TKDD, TBD, KDD, WWW, AAAI, IJCAI, UbiComp, ICDE, CIKM, DASFAA, and other top journals and conferences. His research is funded by the National Natural Science Foundation of China, the National Science Foundations, the Natural Science Foundation of Shandong Province, and the Shandong Provincial Key R&D Program.
+</div>
 
 ### Experience
+<div style="font-size: 0.9em;"> <!-- 全局调小至原字体的90% -->
 - 2022/11-Now, Professor, College of Computer Science and Technology, Ocean University of China
 - 2019/08-2022/10, Associate Professor, College of Computer Science and Technology, Ocean University of China
 - 2018/09-2019/08, Associate Professor, School of Computer and Control Engineering, Yantai University
 - 2014/03-2018/08, Assistant Professor, School of Computer and Control Engineering, Yantai University
+</div>
 
 ### Education
 - 2016/11-2018/09, Postdoc Researcher, IST, Pennsylvania State University, United States
