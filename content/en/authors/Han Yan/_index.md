@@ -27,7 +27,7 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  Time Series Prediction<br>Computational Linguistics
+  Time Series Prediction
   # - Information Retrieval
 
 # education:
