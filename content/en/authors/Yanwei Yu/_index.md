@@ -79,7 +79,7 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 </div>
 
 ### Experience
-<div style="font-size: 0.9em;"> <!-- 全局调小至原字体的90% -->
+<div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
 
 - 2022/11-Now, Professor, College of Computer Science and Technology, Ocean University of China
 - 2019/08-2022/10, Associate Professor, College of Computer Science and Technology, Ocean University of China
@@ -89,18 +89,29 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 </div>
 
 ### Education
+<div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
+
 - 2016/11-2018/09, Postdoc Researcher, IST, Pennsylvania State University, United States
 - 2012/09-2013/10, Visiting Ph.D. Student, Dept. of Computer Science, Worcester Polytechnic Institute, United States
 - 2008/09-2014/01, Ph.D., Computer Science, University of Science and Technology Beijing, China
 - 2004/09-2008/07, B.Sc. , School of Computer, Liaocheng University, China
 
+</div>
+
 ### Professional-services
+<div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
+
 - Reviewer of National Natural Science Foundation of China (2015-Now)
 - Board member of ShanDong Association for Artificial Intelligence
 - PC Member: SIGIR2024, KDD2024, AAAI2024, PAKDD2023, SDM2023, SIGIR2023, KDD2023, WSDM2023, WWW2023, AAAI2023, IJCAI2022, WWW2022, AAAI2022, KDD2022, SDM2022, KDD2021, AAAI2021, SDM2021, KDD2020, AAAI2020, SDM2020, KDD2019, CIKM2019, SDM2019, IPCCC2018, UrbComp2018, DIT2018, InTI2018, UrbComp2016
 - Reviewer: IEEE Transactions on Cybernetics, IEEE Transactions on Mobile Computing, ACM - Transactions on Intelligent Systems and Technology, IEEE Transactions on Big Data, Knowledge-based Systems, IEEE Access.
 
+</div>
+
+
 ### Projects
+<div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
+
 [2022-2025] **NSFC**, 62176243, “Representation Learning for Large-Scale Complex Spatiotemporal Data and Its Applications”, ￥739,000, **PI** <span style="color:red;">**New!**</span>     
 [2018-2021] **NSFC**, 61773331, “Semantic Annotation and Semantic Pattern Mining for Trajectory Big Data”, ￥768,000, **PI**        
 [2017-2019] Shandong HEST Program, J17KA091, “Key Technologies for Real-time Traffic Big Data Mining Supporting Public Location Services”, ￥35,000, **PI**       
@@ -112,6 +123,12 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 [2011-2013] NSFC-Youth, 61003251, “Online Modeling for Temporal Variations of Multi-channel Links in Frequency Hopping based Wireless Sensor Networks”, ￥180,000, Participant      
 [2009-2013] NSF, 0917017, “III: Small: Query Mesh - A Novel Paradigm for Query Processing”, $500,000, Participant
 
+</div>
+
 ### Teaching
+<div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
+
 - Database System (Undergrad)
 - Data Warehousing and Data Mining (Graduate)
+
+</div>
