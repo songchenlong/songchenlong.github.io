@@ -18,9 +18,9 @@ sections:
       sort_by: Params.index
       sort_ascending: true
     design:
-      show_interests: ture
-      show_role: true
-      show_social: true
+      show_interests: ture # Show user's interests? (true/false)
+      show_role: true # Show user's role?
+      show_social: true # Show user's social networking links? (true/false)
       # spacing: 
       #   padding: ["100px", "0", "100px", "0"]
   
