@@ -30,17 +30,17 @@ interests:
   - Distributed Computing
   - Database Systems
 
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+# education:
+#   courses:
+#     - course: PhD in Artificial Intelligence
+#       institution: Stanford University
+#       year: 2012
+#     - course: MEng in Artificial Intelligence
+#       institution: Massachusetts Institute of Technology
+#       year: 2009
+#     - course: BSc in Artificial Intelligence
+#       institution: Massachusetts Institute of Technology
+#       year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -104,3 +104,4 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 [2012-2015] NSFC, 61172049, “Study on TOA Ranging Error model and its application based on Time/Power Metrics of Channel”, ￥600,000, Participant
 [2011-2013] NSFC-Youth, 61003251, “Online Modeling for Temporal Variations of Multi-channel Links in Frequency Hopping based Wireless Sensor Networks”, ￥180,000, Participant
 [2009-2013] NSF, 0917017, “III: Small: Query Mesh - A Novel Paradigm for Query Processing”, $500,000, Participant
+
