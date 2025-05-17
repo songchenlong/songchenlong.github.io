@@ -82,11 +82,12 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 - 2018/09-2019/08, Associate Professor, School of Computer and Control Engineering, Yantai University
 - 2014/03-2018/08, Assistant Professor, School of Computer and Control Engineering, Yantai University
 
-### Experience
-- 2022/11-Now, Professor, College of Computer Science and Technology, Ocean University of China
-- 2019/08-2022/10, Associate Professor, College of Computer Science and Technology, Ocean University of China
-- 2018/09-2019/08, Associate Professor, School of Computer and Control Engineering, Yantai University
-- 2014/03-2018/08, Assistant Professor, School of Computer and Control Engineering, Yantai University
+### Education
+- 2016/11-2018/09, Postdoc Researcher, IST, Pennsylvania State University, United States
+- 2012/09-2013/10, Visiting Ph.D. Student, Dept. of Computer Science, Worcester Polytechnic Institute, United States
+- 2008/09-2014/01, Ph.D., Computer Science, University of Science and Technology Beijing, China
+- 2004/09-2008/07, B.Sc. , School of Computer, Liaocheng University, China
+
 ### Professional-services
 - Reviewer of National Natural Science Foundation of China (2015-Now)
 - Board member of ShanDong Association for Artificial Intelligence
@@ -105,3 +106,6 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 [2011-2013] NSFC-Youth, 61003251, “Online Modeling for Temporal Variations of Multi-channel Links in Frequency Hopping based Wireless Sensor Networks”, ￥180,000, Participant      
 [2009-2013] NSF, 0917017, “III: Small: Query Mesh - A Novel Paradigm for Query Processing”, $500,000, Participant
 
+### Teaching
+- Database System (Undergrad)
+- Data Warehousing and Data Mining (Graduate)
