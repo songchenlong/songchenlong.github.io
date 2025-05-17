@@ -22,8 +22,8 @@ sections:
       show_role: true # Show user's role?
       show_social: true # Show user's social networking links? (true/false)
       spacing:
-        padding: ['2rem', '0', '2rem', '0'] # 调整上下间距为2rem
-        margin: ['2rem', '0', '2rem', '0']  # 调整上下边距为2rem
+        padding: ['100rem', '0', '100rem', '0'] # 调整上下间距为2rem
+        margin: ['100rem', '0', '100rem', '0']  # 调整上下边距为2rem
       # spacing: 
       #   padding: ["100px", "0", "100px", "0"]
   
