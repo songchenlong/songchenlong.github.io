@@ -80,10 +80,12 @@ Yanwei Yu is a professor in the [College of Computer Science and Technology](htt
 
 ### Experience
 <div style="font-size: 0.9em;"> <!-- 全局调小至原字体的90% -->
+
 - 2022/11-Now, Professor, College of Computer Science and Technology, Ocean University of China
 - 2019/08-2022/10, Associate Professor, College of Computer Science and Technology, Ocean University of China
 - 2018/09-2019/08, Associate Professor, School of Computer and Control Engineering, Yantai University
 - 2014/03-2018/08, Assistant Professor, School of Computer and Control Engineering, Yantai University
+
 </div>
 
 ### Education
