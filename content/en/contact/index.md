@@ -12,7 +12,7 @@ sections:
       text: |
         <!-- 电子邮件卡片 -->
         <div class="card mb-5">
-          <div class="card-header bg-gray-500 text-black"> <!-- 灰色标题栏 -->
+          <div class="card-header bg-gray-500 text-black font-weight-bold"> <!-- 灰色标题栏 -->
             <i class="fa fa-envelope mr-2"></i>E-mails
           </div>
           <div class="card-body">
@@ -25,7 +25,7 @@ sections:
         
         <!-- 地址卡片 -->
         <div class="card mb-5">
-          <div class="card-header bg-gray-500 text-black"> <!-- 灰色标题栏 -->
+          <div class="card-header bg-gray-500 text-black font-weight-bold"> <!-- 灰色标题栏 -->
             <i class="fa fa-map-marker mr-2"></i>Address
           </div>
           <div class="card-body">
@@ -53,13 +53,12 @@ sections:
         </div>
         <!-- 微信卡片 -->
         <div class="card">
-          <div class="card-header bg-gray-500 text-black"> <!-- 灰色标题栏 -->
+          <div class="card-header bg-gray-500 text-black font-weight-bold"> <!-- 灰色标题栏 -->
             <i class="fa fa-weixin mr-2"></i>Wechat
           </div>
           <div class="card-body d-flex flex-column align-items-center justify-content-center py-5">
-            <p class="card-text text-center mb-4">Follow our official WeChat account for the latest updates:</p>
             <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 浅灰色边框 -->
-              <img src="wechat.jpg" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
+              <img src="images/wechat.jpg" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
             </div>
             <h5 class="card-title">时空智能挖掘分析</h5>
             <p class="card-text"><i class="fa fa-qrcode mr-2"></i>Wechat ID：SIGMA-OUC</p>
