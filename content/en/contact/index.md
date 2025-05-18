@@ -57,8 +57,9 @@ sections:
             <i class="fa fa-weixin mr-2"></i>Wechat
           </div>
           <div class="card-body d-flex flex-column align-items-center justify-content-center py-5">
-            <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 浅灰色边框 -->
+            <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 图片地址存在static/images/中 -->
               <img src="/images/wechat.jpg" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
+
             </div>
             <h5 class="card-title">时空智能挖掘分析</h5>
             <p class="card-text"><i class="fa fa-qrcode mr-2"></i>Wechat ID：SIGMA-OUC</p>
