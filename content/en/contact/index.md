@@ -35,8 +35,7 @@ sections:
             </div>
             <!-- 地图组件 -->
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://uri.amap.com/embed?mapType=0&zoom=16&center=120.022208,35.778096&markers=120.022208,35.778096&markerTitles=中国海洋大学(西海岸校区)" 
-                      width="100%" height="300" frameborder="0" style="border:1px solid #ddd" allowfullscreen></iframe>
+              <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=116.301254%2C39.984501%2C116.311254%2C39.992501&layer=mapnik&marker=39.988501%2C116.306254" width="100%" height="250" frameborder="0" style="border:1px solid #ccc"></iframe>
             </div>
           </div>
         </div>
