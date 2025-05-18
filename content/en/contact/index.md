@@ -33,10 +33,6 @@ sections:
               <p class="font-weight-bold">中国海洋大学（西海岸校区）</p>
               <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
             </div>
-            <!-- 地图组件
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=116.301254%2C39.984501%2C116.311254%2C39.992501&layer=mapnik&marker=39.988501%2C116.306254" width="100%" height="250" frameborder="0" style="border:1px solid #ccc"></iframe>
-             -->
             <div class="embed-responsive embed-responsive-16by9">
               <img src="/images/map.png" alt="Map" style="width:100%; height:250px; border:1px solid #ccc">
             </div>             
@@ -45,7 +41,7 @@ sections:
         <!-- 微信卡片 -->
         <div class="card">
           <div class="card-header bg-gray-500 text-black font-weight-bold"> <!-- 灰色标题栏 -->
-            <i class="fab fa-weixin"></i>Wechat
+            <i class="fab fa-weixin"></i> Wechat
           </div>
           <div class="card-body d-flex flex-column align-items-center justify-content-center py-5">
             <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 图片地址存在static/images/中 -->
@@ -63,3 +59,8 @@ sections:
       columns: '1'
 ---
 
+<!-- 
+地图组件
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=116.301254%2C39.984501%2C116.311254%2C39.992501&layer=mapnik&marker=39.988501%2C116.306254" width="100%" height="250" frameborder="0" style="border:1px solid #ccc"></iframe>
+-->
