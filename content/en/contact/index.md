@@ -25,29 +25,23 @@ sections:
         
         <!-- 地址卡片 -->
         <div class="card mb-5">
-          <div class="card-header bg-gray-500 text-black font-weight-bold"> <!-- 灰色标题栏 -->
-            <i class="fa fa-map-marker mr-2"></i>Address
+          <div class="card-header bg-gray-600 text-black font-weight-bold">
+            <i class="fa fa-map-marker mr-2 text-black"></i>Address
           </div>
           <div class="card-body">
-            <div class="row">
-              <div class="col-md-5">
-                <pre class="text-secondary mb-4">中国海洋大学（西海岸校区）青岛市黄岛区松岭路238号邮编：266100 中国</pre>
-                <a href="https://uri.amap.com/marker?position=120.022208,35.778096&name=中国海洋大学(西海岸校区)&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-gray-500 btn-block mb-2"> <!-- 灰色按钮 -->
-                  <i class="fa fa-location-arrow mr-2"></i>Get Directions
-                </a>
-                <a href="https://ditu.amap.com/search?query=中国海洋大学(西海岸校区)&city=370200" target="_blank" class="btn btn-outline-gray btn-block"> <!-- 浅灰色描边按钮 -->
-                  <i class="fa fa-expand mr-2"></i>View Larger Map
-                </a>
-              </div>
-              <div class="col-md-7">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://uri.amap.com/embed?mapType=0&zoom=16&center=120.022208,35.778096&markers=120.022208,35.778096&markerTitles=中国海洋大学(西海岸校区)" 
-                          width="100%" height="250" frameborder="0" style="border:1px solid #ddd" allowfullscreen></iframe> <!-- 浅灰色边框 -->
-                </div>
-                <small class="text-muted d-block mt-2">
-                  <i class="fa fa-info-circle mr-1"></i>Map shows approximate location.
-                </small>
-              </div>
+            <!-- 文字描述的地址 -->
+            <div class="mb-4">
+              <p class="font-weight-bold">中国海洋大学（西海岸校区）</p>
+              <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
+              <a href="https://uri.amap.com/marker?position=120.022208,35.778096&name=中国海洋大学(西海岸校区)&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-gray-600 mt-2">
+                <i class="fa fa-location-arrow mr-2"></i>获取路线
+              </a>
+            </div>
+            
+            <!-- 地图组件 -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://uri.amap.com/embed?mapType=0&zoom=16&center=120.022208,35.778096&markers=120.022208,35.778096&markerTitles=中国海洋大学(西海岸校区)" 
+                      width="100%" height="300" frameborder="0" style="border:1px solid #ddd" allowfullscreen></iframe>
             </div>
           </div>
         </div>
