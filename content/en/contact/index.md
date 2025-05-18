@@ -40,7 +40,6 @@ sections:
             <div class="embed-responsive embed-responsive-16by9">
               <img src="/images/map.png" alt="Map" style="width:100%; height:250px; border:1px solid #ccc">
             </div>             
-            </div>
           </div>
         </div>
         <!-- 微信卡片 -->
