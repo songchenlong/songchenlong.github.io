@@ -12,20 +12,20 @@ sections:
       text: |
         <!-- 电子邮件卡片 -->
         <div class="card mb-5">
-          <div class="card-header bg-gray-500 text-white"> <!-- 灰色标题栏 -->
+          <div class="card-header bg-gray-500 text-black"> <!-- 灰色标题栏 -->
             <i class="fa fa-envelope mr-2"></i>E-mails
           </div>
           <div class="card-body">
             <p class="card-text">您可以通过以下邮箱与我们取得联系：</p>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="fa fa-envelope"></i>: <a href="mailto:yuyanwei@ouc.edu.cn">business@example.com</a></li>
+              <li class="list-group-item"><i class="fa fa-envelope"></i>: <a href="mailto:yuyanwei@ouc.edu.cn">yuyanwei@ouc.edu.cn</a></li>
             </ul>
           </div>
         </div>
         
         <!-- 地址卡片 -->
         <div class="card mb-5">
-          <div class="card-header bg-gray-500 text-white"> <!-- 灰色标题栏 -->
+          <div class="card-header bg-gray-500 text-black"> <!-- 灰色标题栏 -->
             <i class="fa fa-map-marker mr-2"></i>Address
           </div>
           <div class="card-body">
@@ -51,16 +51,15 @@ sections:
             </div>
           </div>
         </div>
-        
         <!-- 微信卡片 -->
         <div class="card">
-          <div class="card-header bg-gray-500 text-white"> <!-- 灰色标题栏 -->
+          <div class="card-header bg-gray-500 text-black"> <!-- 灰色标题栏 -->
             <i class="fa fa-weixin mr-2"></i>Wechat
           </div>
           <div class="card-body d-flex flex-column align-items-center justify-content-center py-5">
             <p class="card-text text-center mb-4">Follow our official WeChat account for the latest updates:</p>
             <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 浅灰色边框 -->
-              <img src="https://picsum.photos/300/300?random=3" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
+              <img src="content/en/contact/wechat.jpg" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
             </div>
             <h5 class="card-title">时空智能挖掘分析</h5>
             <p class="card-text"><i class="fa fa-qrcode mr-2"></i>Wechat ID：SIGMA-OUC</p>
