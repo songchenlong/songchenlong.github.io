@@ -33,9 +33,6 @@ sections:
             <div class="mb-4">
               <p class="font-weight-bold">中国海洋大学（西海岸校区）</p>
               <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
-              <a href="https://uri.amap.com/marker?position=120.022208,35.778096&name=中国海洋大学(西海岸校区)&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-gray-600 mt-2">
-                <i class="fa fa-location-arrow mr-2"></i>获取路线
-              </a>
             </div>
             
             <!-- 地图组件 -->
