@@ -34,7 +34,7 @@ sections:
               <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
             </div>
             <div class="text-center">
-              <img src="/images/campus-map.jpg" alt="中国海洋大学西海岸校区位置示意图" class="img-fluid rounded shadow-lg" style="max-width:600px;">
+              <img src="/images/map.png" alt="Map" class="img-fluid rounded shadow-lg" style="max-width:600px;">
               <p class="text-muted mt-2">
                 <i class="fa fa-image mr-1"></i>点击图片查看高清地图
               </p>
