@@ -30,17 +30,17 @@ sections:
           <div class="card-body">
             <div class="row">
               <div class="col-md-5">
-                <pre class="text-secondary mb-4">8th Floor, Zhongguancun Science Park Haidian District, Beijing 100080 China</pre>
-                <a href="https://uri.amap.com/marker?position=116.306254,39.988501&name=Example+Company&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-primary btn-block mb-2">
+                <pre class="text-secondary mb-4">8th Floor, Zhongguancun Science ParkHaidian District, Beijing 100080 China</pre>
+                <a href="https://api.map.baidu.com/marker?location=39.988501,116.306254&title=Example%20Company&content=北京市海淀区中关村科技园区8号楼&output=html&src=yourCompanyName|yourProductName" target="_blank" class="btn btn-primary btn-block mb-2">
                   <i class="fa fa-location-arrow mr-2"></i>Get Directions
                 </a>
-                <a href="https://ditu.amap.com/search?query=中关村科技园区&city=110000" target="_blank" class="btn btn-outline-primary btn-block">
+                <a href="https://map.baidu.com/search/中关村科技园区/@12959100.940000001,4820000.0,15z" target="_blank" class="btn btn-outline-primary btn-block">
                   <i class="fa fa-expand mr-2"></i>View Larger Map
                 </a>
               </div>
               <div class="col-md-7">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://uri.amap.com/embed?mapType=0&zoom=15&center=116.306254,39.988501&markers=116.306254,39.988501&markerTitles=Example+Company" 
+                  <iframe src="https://api.map.baidu.com/share/index?location=39.988501,116.306254&title=Example%20Company&content=北京市海淀区中关村科技园区8号楼&output=html&src=yourCompanyName|yourProductName" 
                           width="100%" height="250" frameborder="0" style="border:1px solid #ccc" allowfullscreen></iframe>
                 </div>
                 <small class="text-muted d-block mt-2">
