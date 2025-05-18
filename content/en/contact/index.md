@@ -33,9 +33,12 @@ sections:
               <p class="font-weight-bold">中国海洋大学（西海岸校区）</p>
               <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
             </div>
-            <div class="embed-responsive embed-responsive-16by9">
-              <img src="/images/map.png" alt="Map" style="width: 100%; height: 300px; border: 1px solid #ccc; object-fit: cover;">
-            </div>             
+            <div class="text-center">
+              <img src="/images/campus-map.jpg" alt="中国海洋大学西海岸校区位置示意图" class="img-fluid rounded shadow-lg" style="max-width:600px;">
+              <p class="text-muted mt-2">
+                <i class="fa fa-image mr-1"></i>点击图片查看高清地图
+              </p>
+            </div>
           </div>
         </div>
         <!-- 微信卡片 -->
