@@ -30,17 +30,17 @@ sections:
           <div class="card-body">
             <div class="row">
               <div class="col-md-5">
-                <pre class="text-secondary mb-4">8th Floor, Zhongguancun Science ParkHaidian District, Beijing 100080 China</pre>
-                <a href="https://api.map.baidu.com/marker?location=39.988501,116.306254&title=Example%20Company&content=北京市海淀区中关村科技园区8号楼&output=html&src=yourCompanyName|yourProductName" target="_blank" class="btn btn-primary btn-block mb-2">
+                <pre class="text-secondary mb-4">Your Company Address 123 Business StreetQingdao, Shandong 266000 China</pre>
+                <a href="https://api.map.baidu.com/marker?location=35.780649,120.033415&title=Your%20Company&content=Your%20Company%20Address%2C%20Qingdao%2C%20Shandong%20266000%2C%20China&output=html&src=yourCompanyName|yourProductName" target="_blank" class="btn btn-primary btn-block mb-2">
                   <i class="fa fa-location-arrow mr-2"></i>Get Directions
                 </a>
-                <a href="https://map.baidu.com/search/中关村科技园区/@12959100.940000001,4820000.0,15z" target="_blank" class="btn btn-outline-primary btn-block">
+                <a href="https://map.baidu.com/search/Your%20Company/@35.780649,120.033415,15z" target="_blank" class="btn btn-outline-primary btn-block">
                   <i class="fa fa-expand mr-2"></i>View Larger Map
                 </a>
               </div>
               <div class="col-md-7">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://api.map.baidu.com/share/index?location=39.988501,116.306254&title=Example%20Company&content=北京市海淀区中关村科技园区8号楼&output=html&src=yourCompanyName|yourProductName" 
+                  <iframe src="https://api.map.baidu.com/share/index?location=35.780649,120.033415&title=Your%20Company&content=Your%20Company%20Address%2C%20Qingdao%2C%20Shandong%20266000%2C%20China&output=html&src=yourCompanyName|yourProductName" 
                           width="100%" height="250" frameborder="0" style="border:1px solid #ccc" allowfullscreen></iframe>
                 </div>
                 <small class="text-muted d-block mt-2">
@@ -60,13 +60,8 @@ sections:
             <div class="mt-4 mb-4">
               <img src="https://picsum.photos/300/300?random=3" alt="微信公众号二维码" class="img-thumbnail" style="max-width:200px;">
             </div>
-            <h5 class="card-title">Example科技</h5>
-            <p class="card-text"><i class="fa fa-qrcode mr-2"></i>公众号ID：example-tech</p>
-            <div class="mt-4">
-              <span class="badge badge-info mr-2"><i class="fa fa-bullhorn mr-1"></i>产品更新</span>
-              <span class="badge badge-info mr-2"><i class="fa fa-lightbulb-o mr-1"></i>技术分享</span>
-              <span class="badge badge-info"><i class="fa fa-gift mr-1"></i>优惠活动</span>
-            </div>
+            <h5 class="card-title">时空智能挖掘分析</h5>
+            <p class="card-text"><i class="fa fa-qrcode mr-2"></i>公众号ID：SIGMA-OUC</p>
           </div>
         </div>
       
