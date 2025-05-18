@@ -25,20 +25,27 @@ sections:
         <!-- 地址卡片 -->
         <div class="card mb-5">
           <div class="card-header bg-primary text-white">
-            <i class="fa fa-map-marker mr-2"></i>Adress
+            <i class="fa fa-map-marker mr-2"></i>Address
           </div>
           <div class="card-body">
             <div class="row">
-              <div class="col-md-6">
-                <p><i class="fa fa-clock-o mr-2"></i><strong>中国海洋大学西海岸校区信息楼南楼A329</strong>:</p>
-              </div>
-              <div class="col-md-6">
-                <a href="https://maps.google.com/?q=北京市海淀区中关村科技园区8号楼" target="_blank" class="btn btn-outline-primary btn-block">
-                  <i class="fa fa-map mr-2"></i>地图导航
+              <div class="col-md-5">
+                <pre class="text-secondary mb-4">8th Floor, Zhongguancun Science Park Haidian District, Beijing 100080 China</pre>
+                <a href="https://uri.amap.com/marker?position=116.306254,39.988501&name=Example+Company&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-primary btn-block mb-2">
+                  <i class="fa fa-location-arrow mr-2"></i>Get Directions
                 </a>
-                <div class="mt-3 embed-responsive embed-responsive-16by9">
-                  <img src="https://picsum.photos/600/400?random=2" alt="地图预览" class="img-fluid rounded">
+                <a href="https://ditu.amap.com/search?query=中关村科技园区&city=110000" target="_blank" class="btn btn-outline-primary btn-block">
+                  <i class="fa fa-expand mr-2"></i>View Larger Map
+                </a>
+              </div>
+              <div class="col-md-7">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe src="https://uri.amap.com/embed?mapType=0&zoom=15&center=116.306254,39.988501&markers=116.306254,39.988501&markerTitles=Example+Company" 
+                          width="100%" height="250" frameborder="0" style="border:1px solid #ccc" allowfullscreen></iframe>
                 </div>
+                <small class="text-muted d-block mt-2">
+                  <i class="fa fa-info-circle mr-1"></i>Map shows approximate location.
+                </small>
               </div>
             </div>
           </div>
