@@ -22,7 +22,6 @@ sections:
             </ul>
           </div>
         </div>
-        
         <!-- 地址卡片 -->
         <div class="card mb-5">
           <div class="card-header bg-gray-600 text-black font-weight-bold">
@@ -34,7 +33,6 @@ sections:
               <p class="font-weight-bold">中国海洋大学（西海岸校区）</p>
               <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
             </div>
-            
             <!-- 地图组件 -->
             <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://uri.amap.com/embed?mapType=0&zoom=16&center=120.022208,35.778096&markers=120.022208,35.778096&markerTitles=中国海洋大学(西海岸校区)" 
