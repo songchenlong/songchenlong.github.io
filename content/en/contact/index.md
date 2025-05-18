@@ -18,7 +18,7 @@ sections:
           <div class="card-body">
             <p class="card-text">您可以通过以下邮箱与我们取得联系：</p>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="fa fa-envelope"></i><a href="mailto:yuyanwei@ouc.edu.cn">business@example.com</a></li>
+              <li class="list-group-item"><i class="fa fa-envelope"></i>: <a href="mailto:yuyanwei@ouc.edu.cn">business@example.com</a></li>
             </ul>
           </div>
         </div>
