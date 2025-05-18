@@ -35,9 +35,6 @@ sections:
             </div>
             <div class="text-center">
               <img src="/images/map.png" alt="Map" class="img-fluid rounded shadow-lg" style="max-width:100%;">
-              <p class="text-muted mt-2">
-                <i class="fa fa-image mr-1"></i>点击图片查看高清地图
-              </p>
             </div>
           </div>
         </div>
