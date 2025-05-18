@@ -55,13 +55,13 @@ sections:
           <div class="card-header bg-primary text-white">
             <i class="fa fa-weixin mr-2"></i>Wechat
           </div>
-          <div class="card-body text-center">
-            <p class="card-text">关注我们的微信公众号，获取最新产品动态、技术文章和活动信息：</p>
-            <div class="mt-4 mb-4">
-              <img src="https://picsum.photos/300/300?random=3" alt="微信公众号二维码" class="img-thumbnail" style="max-width:200px;">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center py-5">
+            <p class="card-text text-center mb-4">Follow our official WeChat account for the latest updates:</p>
+            <div class="qr-container p-3 border border-light rounded-lg shadow-lg mb-4 transition-all duration-300 hover:shadow-xl">
+              <img src="https://picsum.photos/300/300?random=3" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
             </div>
             <h5 class="card-title">时空智能挖掘分析</h5>
-            <p class="card-text"><i class="fa fa-qrcode mr-2"></i>公众号ID：SIGMA-OUC</p>
+            <p class="card-text"><i class="fa fa-qrcode mr-2"></i>Wechat ID：SIGMA-OUC</p>
           </div>
         </div>
       
