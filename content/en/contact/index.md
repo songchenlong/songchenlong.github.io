@@ -31,16 +31,16 @@ sections:
             <div class="row">
               <div class="col-md-5">
                 <pre class="text-secondary mb-4">8th Floor, Zhongguancun Science Park Haidian District, Beijing 100080 China</pre>
-                <a href="https://uri.amap.com/marker?position=116.306254,39.988501&name=Example+Company&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-primary btn-block mb-2">
+                <a href="https://uri.amap.com/marker?position=120.022208,35.778096&name=中国海洋大学(西海岸校区)&src=mypage&coordinate=gaode&callnative=0" target="_blank" class="btn btn-primary btn-block mb-2">
                   <i class="fa fa-location-arrow mr-2"></i>Get Directions
                 </a>
-                <a href="https://ditu.amap.com/search?query=中关村科技园区&city=110000" target="_blank" class="btn btn-outline-primary btn-block">
+                <a href="https://ditu.amap.com/search?query=中国海洋大学(西海岸校区)&city=370200" target="_blank" class="btn btn-outline-primary btn-block">
                   <i class="fa fa-expand mr-2"></i>View Larger Map
                 </a>
               </div>
               <div class="col-md-7">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://uri.amap.com/embed?mapType=0&zoom=15&center=116.306254,39.988501&markers=116.306254,39.988501&markerTitles=Example+Company" 
+                  <iframe src="https://uri.amap.com/embed?mapType=0&zoom=16&center=120.022208,35.778096&markers=120.022208,35.778096&markerTitles=中国海洋大学(西海岸校区)" 
                           width="100%" height="250" frameborder="0" style="border:1px solid #ccc" allowfullscreen></iframe>
                 </div>
                 <small class="text-muted d-block mt-2">
