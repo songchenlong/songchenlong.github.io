@@ -34,7 +34,7 @@ sections:
               <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
             </div>
             <div class="embed-responsive embed-responsive-16by9">
-              <img src="/images/map.png" alt="Map" style="width:100%; height:250px; border:1px solid #ccc">
+              <img src="/images/map.png" alt="Map" style="width: 100%; height: 300px; border: 1px solid #ccc; object-fit: cover;">
             </div>             
           </div>
         </div>
