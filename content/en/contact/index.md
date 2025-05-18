@@ -43,7 +43,7 @@ sections:
         <!-- 微信卡片 -->
         <div class="card">
           <div class="card-header bg-gray-500 text-black font-weight-bold"> <!-- 灰色标题栏 -->
-            <i class="fa fa-weixin mr-2"></i>Wechat
+            <i class="fa fa-weixin"></i>Wechat
           </div>
           <div class="card-body d-flex flex-column align-items-center justify-content-center py-5">
             <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 图片地址存在static/images/中 -->
