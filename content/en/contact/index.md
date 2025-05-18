@@ -49,68 +49,60 @@ sections:
 
 ---
 title: Contact
+date: 2022-10-24
 
+type: landing
 ---
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#165DFF',
-                        secondary: '#0FC6C2',
-                        neutral: {
-                            100: '#F5F7FA',
-                            200: '#E4E6EB',
-                            300: '#C9CDD4',
-                            400: '#86909C',
-                            500: '#4E5969',
-                            600: '#272E3B',
-                            700: '#1D2129',
-                        }
-                    },
-                    fontFamily: {
-                        inter: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'card': '0 10px 30px -5px rgba(0, 0, 0, 0.1)',
-                        'card-hover': '0 20px 40px -5px rgba(0, 0, 0, 0.15)',
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#165DFF',
+                    secondary: '#0FC6C2',
+                    neutral: {
+                        100: '#F5F7FA',
+                        200: '#E4E6EB',
+                        300: '#C9CDD4',
+                        400: '#86909C',
+                        500: '#4E5969',
+                        600: '#272E3B',
+                        700: '#1D2129',
                     }
+                },
+                fontFamily: {
+                    inter: ['Inter', 'system-ui', 'sans-serif'],
+                },
+                boxShadow: {
+                    'card': '0 10px 30px -5px rgba(0, 0, 0, 0.1)',
+                    'card-hover': '0 20px 40px -5px rgba(0, 0, 0, 0.15)',
                 }
             }
         }
-    </script>
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .content-auto {
-                content-visibility: auto;
-            }
-            .text-shadow {
-                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            }
-            .transition-custom {
-                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            }
-            .bg-gradient-blue {
-                background: linear-gradient(135deg, #165DFF 0%, #0FC6C2 100%);
-            }
+    }
+</script>
+<style type="text/tailwindcss">
+    @layer utilities {
+        .content-auto {
+            content-visibility: auto;
         }
-    </style>
-</head>
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .transition-custom {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .bg-gradient-blue {
+            background: linear-gradient(135deg, #165DFF 0%, #0FC6C2 100%);
+        }
+    }
+</style>
+
 <body class="font-inter bg-neutral-100 text-neutral-700 min-h-screen flex flex-col items-center justify-center p-4 md:p-8">
-    <!-- 页面标题 -->
-    <section class="text-center mb-12 w-full max-w-4xl">
-        <h2 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-neutral-700 mb-4 text-shadow">联系我们</h2>
-        <p class="text-neutral-500 max-w-2xl mx-auto text-lg">欢迎随时与我们取得联系，您可以通过以下方式找到我们</p>
-        <div class="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
-    </section>
     <!-- 联系信息卡片 -->
     <section class="w-full max-w-3xl">
         <div class="grid grid-cols-1 gap-8">
@@ -165,5 +157,3 @@ title: Contact
         });
     </script>
 </body>
-</html>
-    
