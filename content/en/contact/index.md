@@ -49,11 +49,6 @@ sections:
 
 ---
 title: Contact
-view: citation
-banner:
-  caption: ''
-  image: ''
-
 
 ---
 
@@ -62,7 +57,6 @@ banner:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>实验室联系方式</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <script>
@@ -117,8 +111,9 @@ banner:
         <p class="text-neutral-500 max-w-2xl mx-auto text-lg">欢迎随时与我们取得联系，您可以通过以下方式找到我们</p>
         <div class="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
     </section>
-    <section class="w-full max-w-6xl">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- 联系信息卡片 -->
+    <section class="w-full max-w-3xl">
+        <div class="grid grid-cols-1 gap-8">
             <!-- Email卡片 -->
             <div class="bg-white rounded-xl shadow-card hover:shadow-card-hover p-8 transition-custom transform hover:-translate-y-2 border-t-4 border-primary">
                 <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
@@ -131,6 +126,7 @@ banner:
                     contact@example.com
                 </a>
             </div>
+            <!-- 地址卡片 -->
             <div class="bg-white rounded-xl shadow-card hover:shadow-card-hover p-8 transition-custom transform hover:-translate-y-2 border-t-4 border-secondary">
                 <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
                     <i class="fa-solid fa-map-marker-alt text-secondary text-2xl"></i>
@@ -170,3 +166,4 @@ banner:
     </script>
 </body>
 </html>
+    
