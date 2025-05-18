@@ -8,7 +8,7 @@ sections:
   - block: markdown
     content:
       title: Contact
-      subtitle: 多种方式与我们取得联系
+      subtitle:
       text: |
         <!-- 电子邮件卡片 -->
         <div class="card mb-5">
@@ -18,11 +18,8 @@ sections:
           <div class="card-body">
             <p class="card-text">您可以通过以下邮箱与我们取得联系：</p>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="fa fa-briefcase mr-2"></i><strong>商务合作</strong>: <a href="mailto:business@example.com">business@example.com</a></li>
-              <li class="list-group-item"><i class="fa fa-life-ring mr-2"></i><strong>技术支持</strong>: <a href="mailto:support@example.com">support@example.com</a></li>
-              <li class="list-group-item"><i class="fa fa-newspaper mr-2"></i><strong>媒体咨询</strong>: <a href="mailto:media@example.com">media@example.com</a></li>
+              <li class="list-group-item"><i class="fa fa-envelope"></i><a href="mailto:business@example.com">business@example.com</a></li>
             </ul>
-            <p class="mt-3 text-muted"><small>我们会在24-48小时内回复您的邮件</small></p>
           </div>
         </div>
         <!-- 地址卡片 -->
@@ -33,13 +30,7 @@ sections:
           <div class="card-body">
             <div class="row">
               <div class="col-md-6">
-                <pre class="text-secondary mb-4">北京市海淀区中关村科技园区8号楼邮编：100080中国</pre>
-                <p><i class="fa fa-clock-o mr-2"></i><strong>开放时间</strong>:</p>
-                <ul class="list-unstyled">
-                  <li>周一至周五: 9:00 - 18:00</li>
-                  <li>周六: 10:00 - 16:00</li>
-                  <li>周日: 休息</li>
-                </ul>
+                <p><i class="fa fa-clock-o mr-2"></i><strong>中国海洋大学西海岸校区信息楼南楼A329</strong>:</p>
               </div>
               <div class="col-md-6">
                 <a href="https://maps.google.com/?q=北京市海淀区中关村科技园区8号楼" target="_blank" class="btn btn-outline-primary btn-block">
