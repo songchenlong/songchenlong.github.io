@@ -113,7 +113,7 @@ user_groups:
 
 </div>
 
-### Projects
+### 科研项目
 <div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
 
 [2022-2025] **国家自然科学基金面上项目**, 62176243, “面向大规模复杂时空数据的表征学习方法及其应用研究”,73.9万, **主持人** <span style="color:red;">**New!**</span>     
@@ -130,7 +130,7 @@ user_groups:
 </div>
 
 
-### Professional-services
+### 学术兼职
 <div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
 
 - 国家自然科学基金通讯评审专家（2015年-今）
@@ -148,7 +148,7 @@ user_groups:
 
 
 
-### Teaching
+### 教授课程
 <div style="font-size: 0.9em;"> <!-- 调小至原字体的90% -->
 
 - 数据库系统(本科生)
