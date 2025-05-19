@@ -12,7 +12,7 @@ sections:
       image:
         filename: heying.jpg
       text: |
-        👋 Hello!
+        👋 你好!
   
   - block: collection
     content:

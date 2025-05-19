@@ -26,8 +26,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - 时序数据缺失填补
+# interests:
+#   - 时序数据缺失填补
   # - Computational Linguistics
   # - Information Retrieval
 

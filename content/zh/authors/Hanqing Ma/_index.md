@@ -26,8 +26,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - Spatio-temporal Data Mining
+# interests:
+#   - Spatio-temporal Data Mining
   # - Computational Linguistics
   # - Information Retrieval
 

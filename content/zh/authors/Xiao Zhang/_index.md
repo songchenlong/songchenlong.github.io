@@ -26,8 +26,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - 轨迹相似度计算
+# interests:
+#   - 轨迹相似度计算
   # - Computational Linguistics
   # - Information Retrieval
 

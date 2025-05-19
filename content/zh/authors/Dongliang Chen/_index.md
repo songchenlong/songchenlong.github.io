@@ -26,10 +26,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - 情感计算
-  - 图像视频处理
-  - 迁移学习
+# interests:
+#   - 情感计算
+#   - 图像视频处理
+#   - 迁移学习
   # - Information Retrieval
 
 # education:

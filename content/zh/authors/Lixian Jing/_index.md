@@ -26,8 +26,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - Model Lightweight
+# interests:
+#   - Model Lightweight
   # - Computational Linguistics
   # - Information Retrieval
 

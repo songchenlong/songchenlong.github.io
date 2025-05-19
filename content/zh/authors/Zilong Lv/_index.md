@@ -26,8 +26,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-  - 海水温度预测
+# interests:
+#   - 海水温度预测
   # - Computational Linguistics
   # - Information Retrieval
 
