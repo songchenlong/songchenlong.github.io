@@ -20,7 +20,7 @@ role: 2023硕士生
 
 # Organizations/Affiliations
 organizations:
-  - name: Ocean University of China
+  - name: 中国海洋大学
     url: 'https://www.ouc.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
@@ -48,18 +48,18 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'mailto:test@example.org'
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:test@example.org'
   # - icon: cv
   #   icon_pack: ai
   #   link: https://yuyanwei.github.io/index.html
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/songchenlong
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

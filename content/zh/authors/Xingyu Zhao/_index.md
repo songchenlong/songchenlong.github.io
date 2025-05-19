@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xingyu Zhao
+title: 赵星宇
 
 # Full name (for SEO)
 first_name: Xingyu
@@ -16,18 +16,18 @@ superuser: false
 index: "Phd2401"
 
 # Role/position
-role: Doctoral students in 2024
+role: 2024博士生
 
 # Organizations/Affiliations
 organizations:
-  - name: Ocean University of China
+  - name: 中国海洋大学
     url: 'https://www.ouc.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Ocean Spatiotemporal Prediction
+  - 海洋大数据预测
   # - Computational Linguistics
   # - Information Retrieval
 
@@ -72,5 +72,5 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Doctoral Students
+  - 博士生
 ---
