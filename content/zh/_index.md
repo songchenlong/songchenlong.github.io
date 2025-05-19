@@ -8,19 +8,18 @@ sections:
   - block: hero
     content:
       title: |
-        <div style="font-size: 32px; font-weight: bold;">XXXXX实验室   </div><div style="font-size: 18px; font-weight: bold; line-height: 2.5;">SIGMA@OUC</div>
+        SIGMA@OUC
       image:
-        filename: welcome.jpg
+        filename: heying.jpg
       text: |
-        <br>
-        XXXX实验室简介。。。。。
+        👋 Hello!
   
   - block: collection
     content:
       title: 近期动态
       subtitle:
       text:
-      count: 2
+      count: 3
       filters:
         author: ''
         category: ''
@@ -32,8 +31,8 @@ sections:
       page_type: post
     design:
       view: list
-      columns: '1'
-  
+      columns: '1'  
+
   # - block: markdown
   #   content:
   #     title:
@@ -72,7 +71,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="团队成员 →" %}}
     design:
       columns: '1'
 ---
