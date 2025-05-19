@@ -16,7 +16,7 @@ sections:
             <i class="fa fa-envelope mr-2"></i>E-mails
           </div>
           <div class="card-body">
-            <p class="card-text">您可以通过以下邮箱与我们取得联系：</p>
+            <p class="card-text">You can contact us via email at: </p>
             <ul class="list-group list-group-flush">
               <li class="list-group-item"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:yuyanwei@ouc.edu.cn">yuyanwei@ouc.edu.cn</a></li>
             </ul>
@@ -30,8 +30,7 @@ sections:
           <div class="card-body">
             <!-- 文字描述的地址 -->
             <div class="mb-4">
-              <p class="font-weight-bold">中国海洋大学（西海岸校区）</p>
-              <p class="text-secondary">青岛市黄岛区松岭路238号<br>邮编：266100<br>中国</p>
+              <p class="font-weight-bold">A329, Xinxi South Building, 1299 Sansha RD, Qingdao, Shandong 266400</p>
             </div>
             <div class="text-center">
               <img src="/images/map.png" alt="Map" class="img-fluid rounded shadow-lg" style="max-width:100%;">
@@ -47,7 +46,6 @@ sections:
             <div class="qr-container p-3 border border-gray-300 rounded-lg shadow-lg mb-4"> <!-- 图片地址存在static/images/中 -->
               <img src="/images/wechat.jpg" alt="WeChat QR Code" class="img-fluid rounded" style="max-width:220px;">
             </div>
-            <h5 class="card-title">时空智能挖掘分析</h5>
             <p class="card-text"><i class="fa fa-qrcode mr-2"></i>Wechat ID：SIGMA-OUC</p>
           </div>
         </div>
