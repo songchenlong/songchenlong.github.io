@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Hanqing Ma
+title: 马汉卿
 
 # Full name (for SEO)
 first_name: Hanqing
@@ -16,7 +16,7 @@ superuser: false
 index: "Master2403"
 
 # Role/position
-role: 2024 Master's students
+role: 2024硕士生
 
 # Organizations/Affiliations
 organizations:
@@ -48,18 +48,18 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'mailto:test@example.org'
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:test@example.org'
   # - icon: cv
   #   icon_pack: ai
   #   link: https://yuyanwei.github.io/index.html
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/songchenlong
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,5 +72,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - 硕士生
 ---

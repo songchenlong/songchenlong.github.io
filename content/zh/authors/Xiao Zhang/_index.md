@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xiao Zhang
+title: 张潇
 
 # Full name (for SEO)
 first_name: Xiao
@@ -16,7 +16,7 @@ superuser: false
 index: "Master2305"
 
 # Role/position
-role: 2023 Master's students
+role: 2023硕士生
 
 # Organizations/Affiliations
 organizations:
@@ -27,7 +27,7 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Trajectory Similarity Measures
+  - 轨迹相似度计算
   # - Computational Linguistics
   # - Information Retrieval
 
@@ -72,5 +72,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - 硕士生
 ---

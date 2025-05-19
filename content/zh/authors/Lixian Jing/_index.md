@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Lixian Jing
+title: 井立宪
 
 # Full name (for SEO)
 first_name: Lixian
@@ -16,7 +16,7 @@ superuser: false
 index: "Master2301"
 
 # Role/position
-role: 2023 Master's students
+role: 2023硕士生
 
 # Organizations/Affiliations
 organizations:
@@ -57,9 +57,9 @@ social:
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/songchenlong
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,5 +72,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - 硕士生
 ---

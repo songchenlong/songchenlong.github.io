@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ronghao Cui
+title: 崔荣浩
 
 # Full name (for SEO)
 first_name: Ronghao
@@ -16,18 +16,18 @@ superuser: false
 index: "Master2405"
 
 # Role/position
-role: 2024 Master's students
+role: 2024硕士生
 
 # Organizations/Affiliations
 organizations:
-  - name: Ocean University of China
+  - name: 中国海洋大学
     url: 'https://www.ouc.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Graph Neural Network
+  - 图神经网络
   # - Computational Linguistics
   # - Information Retrieval
 
@@ -72,5 +72,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - 硕士生
 ---

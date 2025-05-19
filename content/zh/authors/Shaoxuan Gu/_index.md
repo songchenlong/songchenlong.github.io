@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Shaoxuan Gu
+title: 谷少轩
 
 # Full name (for SEO)
 first_name: Shaoxuan
@@ -16,7 +16,7 @@ superuser: false
 index: "Master2404"
 
 # Role/position
-role: 2024 Master's students
+role: 2024硕士生
 
 # Organizations/Affiliations
 organizations:
@@ -27,7 +27,7 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Trajectory Representation Learning
+  - 轨迹表示学习
   # - Computational Linguistics
   # - Information Retrieval
 
@@ -72,5 +72,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - 硕士生
 ---

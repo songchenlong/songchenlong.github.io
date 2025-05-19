@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Chenlong Song
+title: 宋晨龙
 
 # Full name (for SEO)
 first_name: Chenlong
@@ -16,7 +16,7 @@ superuser: false
 index: "Phd2502"
 
 # Role/position
-role: Doctoral students in 2025
+role: 2025博士生
 
 # Organizations/Affiliations
 organizations:
@@ -72,5 +72,5 @@ email: 'songchenlong0218@outlook.com'
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Doctoral Students
+  - 博士生
 ---
