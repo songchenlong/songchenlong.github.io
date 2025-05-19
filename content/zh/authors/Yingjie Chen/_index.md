@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yingjie Chen
+title: 陈英杰
 
 # Full name (for SEO)
 first_name: Yingjie
@@ -16,18 +16,18 @@ superuser: false
 index: "Master2407"
 
 # Role/position
-role: 2024 Master's students
+role: 2024硕士生
 
 # Organizations/Affiliations
 organizations:
-  - name: Ocean University of China
+  - name: 中国海洋大学
     url: 'https://www.ouc.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Recommendation system
+  - 推荐系统
   # - Computational Linguistics
   # - Information Retrieval
 
@@ -48,9 +48,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'mailto:test@example.org'
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:test@example.org'
   # - icon: cv
   #   icon_pack: ai
   #   link: https://yuyanwei.github.io/index.html
@@ -59,7 +59,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   # - icon: github
   #   icon_pack: fab
-  #   link: https://github.com/songchenlong
+  #   link: https://github.com/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,5 +72,5 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - 硕士生
 ---
