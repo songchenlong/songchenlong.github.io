@@ -60,7 +60,7 @@ sections:
       image:
         filename: heying.jpg
       text: |
-        XXXX...
+        👋 Hello!
   # - block: slider
   #   content:
   #     slides:
