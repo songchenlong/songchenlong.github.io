@@ -1,5 +1,5 @@
 ---
-title: "Congratulations! The paper \"Non-collective Calibrating Strategy for Time Series Forecasting\" by Wang Bin (first-author) has been accepted by IJCAI 2025! 🎉🎉🎉"
+title: "祝贺王斌一作的论文“Non-collective Calibrating Strategy for Time Series Forecasting”被CCF A类会议IJCAI2025接收！"
 
 date: 2025-04-29
 ---
@@ -7,4 +7,4 @@ date: 2025-04-29
 
 <!--more-->
 
-Congratulations! The paper \"Non-collective Calibrating Strategy for Time Series Forecasting\" by Wang Bin (first-author) has been accepted by IJCAI 2025! 🎉🎉🎉
+祝贺王斌一作的论文“Non-collective Calibrating Strategy for Time Series Forecasting”被CCF A类会议IJCAI2025接收！ 🎉🎉🎉

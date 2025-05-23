@@ -1,9 +1,9 @@
 ---
-title: "Congratulations! The paper \"Dual-Channel Multiplex Graph Neural Networks for Recommendation\" by Li Xiang (first-author) has been accepted by TKDE! 🎉🎉🎉"
+title: "祝贺李享一作的论文“Dual-Channel Multiplex Graph Neural Networks for Recommendation”被CCF A类顶刊IEEE TKDE接收！"
 date: 2025-02-14
 ---
 
 
 <!--more-->
 
-Congratulations! The paper \"Dual-Channel Multiplex Graph Neural Networks for Recommendation\" by Li Xiang (first-author) has been accepted by TKDE! 🎉🎉🎉
+祝贺李享一作的论文“Dual-Channel Multiplex Graph Neural Networks for Recommendation”被CCF A类顶刊IEEE TKDE接收！ 🎉🎉🎉
