@@ -54,9 +54,9 @@ social:
   # - icon: cv
   #   icon_pack: ai
   #   link: https://yuyanwei.github.io/index.html
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=fhbSK6UAAAAJ&hl=zh-CN
   - icon: github
     icon_pack: fab
     link: https://github.com/
