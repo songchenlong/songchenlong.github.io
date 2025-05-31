@@ -54,7 +54,7 @@ education:
   - area: PhD Artificial Intelligence
     institution: Ocean University of China
     date_start: 2025-06-01
-    date_end: 2020-12-31
+    date_end: 
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
